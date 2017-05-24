@@ -10,6 +10,7 @@ Features:
  * Inline Assembly: introduce ``keccak256`` as an opcode. ``sha3`` is still a valid alias.
 
 Bugfixes:
+ * Code generator: Use ``REVERT`` instead of ``INVALID`` for generated input validation routines.
  * Fixed crash concerning non-callable types.
  * Unused variable warnings no longer issued for variables used inside inline assembly.
  * Inline Assembly: Enforce function arguments when parsing functional instructions.
